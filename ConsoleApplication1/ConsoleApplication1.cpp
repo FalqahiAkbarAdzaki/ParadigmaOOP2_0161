@@ -1,0 +1,5 @@
+#include <iostream>
+using namespace std;
+
+// class parent
+// tambahkan final sesudah nama class
