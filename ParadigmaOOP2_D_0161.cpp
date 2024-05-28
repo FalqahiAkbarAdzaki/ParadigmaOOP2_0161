@@ -44,5 +44,8 @@ int main()
 	obyek = &b;
 	obyek->pesan();
 
-	// akses method pesan
+	// akses method pesan dari class seseorang
+	//   a.seseorang::pesan();
+
+	return 0;
 }
