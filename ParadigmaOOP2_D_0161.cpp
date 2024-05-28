@@ -43,4 +43,6 @@ int main()
 	obyek->pesan();
 	obyek = &b;
 	obyek->pesan();
+
+	// akses method pesan
 }
