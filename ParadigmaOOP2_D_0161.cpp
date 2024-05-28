@@ -35,5 +35,5 @@ public:
 
 int main()
 {
-	seseorang 
+	seseorang* obyek;
 }
