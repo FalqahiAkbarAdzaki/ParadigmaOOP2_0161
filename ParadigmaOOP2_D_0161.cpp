@@ -29,6 +29,6 @@ class lia : public seseorang
 public:
 	void pesan()
 	{
-		cout << "Pesan
+		cout << "Pesan dari
 	}
 };
