@@ -13,7 +13,7 @@ public:
 class pekerja : public orang {
 public:
 
-	rja(int pUmur) :
+	pekerja(int pUmur) :
 		orang(pUmur)
 	{
 		cout << "pekerja dibuat\n" << endl;
@@ -29,23 +29,24 @@ public:
 	}
 };
 
-class budi : public pekerja, public pelajar {
+class Budi : public pekerja, public pelajar {
 public:
 
-	budi(int pUmur) :
+	Budi(int pUmur) :
 		pekerja(pUmur),
-		pelajar(pUmur),
+		pelajar(pUmur)
 	{
 		cout << "Budi dibuat\n" << endl;
 	}
 };
-class budi : public pekerja, public pelajar {
-	budi(int pUmur) :
-}
+class Budi : public pekerja, public pelajar {
+	Budi(int pUmur)
+
 };
 
 int main() {
-	budi a(12);
+	Budi
+
 
 	return 0;
 }
